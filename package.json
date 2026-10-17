@@ -5,6 +5,14 @@
   "type": "module",
   "description": "Custom video startup intro for DeepSeek Harness: import videos, keep per-video segment/speed/brightness/fit/cinema/fade settings, preview live, and fade into the workbench on boot. Follows the app's light/dark appearance automatically.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoe1nan/dsh-startup-intro.git"
+  },
+  "homepage": "https://github.com/zoe1nan/dsh-startup-intro#readme",
+  "bugs": {
+    "url": "https://github.com/zoe1nan/dsh-startup-intro/issues"
+  },
   "keywords": [
     "deepseek-harness",
     "dsh",

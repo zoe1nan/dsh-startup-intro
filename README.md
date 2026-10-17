@@ -35,7 +35,7 @@ A video-powered boot intro plugin for DeepSeek Harness: import clips, keep per-c
 ### 方式一：目录安装（推荐）
 
 ```bash
-git clone https://github.com/<your-name>/dsh-startup-intro.git
+git clone https://github.com/zoe1nan/dsh-startup-intro.git
 dsh plugin --profile desktop add /path/to/dsh-startup-intro
 ```
 
