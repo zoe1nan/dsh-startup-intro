@@ -1,0 +1,10 @@
+# Startup video intro for DeepSeek Harness.
+#
+# The Host half serves the local media library and the settings routes; the
+# Client half registers the boot overlay (shell.overlay) and the settings page
+# (settings.section). The bundle has no Config fields on purpose: media and
+# parameters live in ~/.dsh/startup-intro/state.json and are edited from the
+# plugin's own settings page.
+- insert:
+    - id: dsh-startup-intro
+      name: 'dsh-startup-intro'

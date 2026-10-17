@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Startup Intro">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1A33"/>
+      <stop offset="1" stop-color="#03060D"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5FE1FF"/>
+      <stop offset="1" stop-color="#2A6BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#bg)" stroke="#1B3A66" stroke-width="1.5"/>
+  <g fill="#0A1428" stroke="#2C5A99" stroke-width="1.2">
+    <rect x="8" y="14" width="6" height="6" rx="1.2"/>
+    <rect x="8" y="25" width="6" height="6" rx="1.2"/>
+    <rect x="8" y="36" width="6" height="6" rx="1.2"/>
+    <rect x="8" y="44" width="6" height="6" rx="1.2"/>
+    <rect x="50" y="14" width="6" height="6" rx="1.2"/>
+    <rect x="50" y="25" width="6" height="6" rx="1.2"/>
+    <rect x="50" y="36" width="6" height="6" rx="1.2"/>
+    <rect x="50" y="44" width="6" height="6" rx="1.2"/>
+  </g>
+  <path d="M17 18h30v28H17z" fill="none" stroke="#1E4278" stroke-width="1.4"/>
+  <g filter="url(#glow)">
+    <path d="M27 23.5l13 8.5-13 8.5z" fill="url(#beam)"/>
+  </g>
+  <g stroke="#5FE1FF" stroke-width="1.1" opacity="0.85">
+    <line x1="18" y1="49.5" x2="46" y2="49.5"/>
+  </g>
+  <g fill="#5FE1FF" opacity="0.6">
+    <rect x="40" y="52" width="7" height="1.6" rx="0.8"/>
+    <rect x="33" y="52" width="4" height="1.6" rx="0.8"/>
+  </g>
+</svg>

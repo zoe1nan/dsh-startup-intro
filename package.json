@@ -1,0 +1,40 @@
+{
+  "name": "dsh-startup-intro",
+  "version": "1.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Custom video startup intro for DeepSeek Harness: import videos, keep per-video segment/speed/brightness/fit/cinema/fade settings, preview live, and fade into the workbench on boot. Follows the app's light/dark appearance automatically.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "startup",
+    "intro",
+    "splash",
+    "video"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
